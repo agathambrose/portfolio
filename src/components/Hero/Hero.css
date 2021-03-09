@@ -22,16 +22,37 @@
   font-family: "Titilium Web", sans-serif;
 }
 
+.name-div {
+  font-size: 1.8rem;
+}
+
+.typical-div {
+  font-size: 1.5rem;
+}
+
+
 /* __________TABLET VIEW __________ */
 @media only screen and (min-width: "768px") {
   .hero-div {
-      margin-top: 20px
+    margin-top: 20px;
+  }
+  .name-div {
+    font-size: 2rem;
+  }
+    .typical-div {
+    font-size: 3rem;
   }
 }
 
 /* __________DESKTOP VIEW__________ */
 @media only screen and (min-width: "1024px") {
   .hero-div {
-      margin-top: 20px
+    margin-top: 20px;
+  }
+  .name-div {
+    font-size: 3rem;
+  }
+  .typical-div {
+    font-size: 3rem;
   }
 }

@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   grid-gap: 25px;
-  padding: 5rem;
+  padding: 1rem;
 }
 
 .card__subcontainer {
@@ -32,6 +32,10 @@
 
 /* ____________DESKTOP VIEW____________*/
 @media only screen and (min-width: "1024px") {
+  .card__container{
+    padding: 4rem
+  }
+
   .card__subcontainer {
     width: 350px;
   }

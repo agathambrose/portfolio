@@ -8,9 +8,11 @@ export const Projects = () => {
     <section
       style={{
         fontFamily: "Prata",
+        marginBottom: "60px",
       }}
+      className='py-5 px-5'
     >
-      <div className="text-center mt-3 mb-4">
+      <div className="text-center mt-3 mb-4 pt-4">
         <h1>Projects</h1>
       </div>
 
@@ -24,7 +26,7 @@ export const Projects = () => {
               className="card__image"
             />
 
-            <div className='mt-5'>
+            <div className="mt-5">
               <h4>{item.title}</h4>
 
               <p>{item.description}</p>

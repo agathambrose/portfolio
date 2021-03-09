@@ -1,5 +1,7 @@
 import React from "react";
 import { Button } from "react-bootstrap";
+import './Header.css';
+
 
 const Header = () => {
   return (
@@ -40,7 +42,7 @@ const Header = () => {
             fontFamily: "Prata",
             fontSize: "1rem",
           }}
-          className="mb-3 py-2 px-3"
+          className="header-btn mb-3 py-2 px-3"
         >
           <a
             href="https://drive.google.com/file/d/1wrYZzRy5Zm0NGXWlAb4NVCSTK_HVzsvn/view?usp=sharing"

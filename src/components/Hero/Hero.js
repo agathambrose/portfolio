@@ -16,18 +16,18 @@ export const Hero = () => {
         >
           <h2
             style={{
-              fontSize: "1.8rem",
               fontWeight: "500",
             }}
+            className='name-div'
           >
             Agatha Ambrose
           </h2>
         </div>
         <p
           style={{
-            fontSize: "1.2rem",
             fontFamily: "Prata",
           }}
+          className='typical-div'
         >
           <Typical
             steps={[

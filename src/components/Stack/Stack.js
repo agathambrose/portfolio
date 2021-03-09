@@ -8,8 +8,9 @@ export const Stack = () => {
       style={{
         fontFamily: "Prata",
       }}
+      className="py-5 px-5"
     >
-      <div className="text-center mt-3 mb-4">
+      <div className="text-center mt-3 mb-4 pt-4">
         <h1>Stack</h1>
       </div>
 
