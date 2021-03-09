@@ -27,30 +27,25 @@ const Header = () => {
           alignItems: "center",
         }}
       >
-        <h1
-          className='aa-logo'
-        >
-          A.A
-        </h1>
-
-        <Button
-          variant="outline-primary"
+        <h1 className="aa-logo">A.A</h1>
+        <a
+          href="https://drive.google.com/file/d/1d-v9xezAgGh96Ke5vqiARinRvZRf1u0t/view?usp=sharing"
+          target="_blank"
+          rel="noreferrer noopener"
           style={{
-            fontFamily: "Prata",
+            color: "black",
           }}
-          className="header__btn mb-3 py-2 px-3"
         >
-          <a
-            href="https://drive.google.com/file/d/1d-v9xezAgGh96Ke5vqiARinRvZRf1u0t/view?usp=sharing"
-            target="_blank"
-            rel="noreferrer noopener"
+          <Button
+            variant="outline-primary" size= 'lg'
             style={{
-              color: "black",
+              fontFamily: "Prata",
             }}
+            className="header__btn mb-3 py-2 px-3"
           >
             Resume
-          </a>
-        </Button>
+          </Button>
+        </a>
       </div>
     </div>
   );

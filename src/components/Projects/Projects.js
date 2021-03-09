@@ -11,7 +11,7 @@ export const Projects = () => {
         marginBottom: "60px",
       }}
     >
-      <div className="text-center mx-2 pt-4">
+      <div className="text-center my-2 pt-5 pb-2">
         <h1>Projects</h1>
       </div>
 
@@ -37,7 +37,7 @@ export const Projects = () => {
                   target="_blank"
                   rel="noreferrer noopener"
                 >
-                  <Button variant="outline-primary" className="mb-2">
+                  <Button variant="outline-primary"  block className="mb-2">
                     Source Code
                   </Button>
                 </a>
@@ -48,7 +48,7 @@ export const Projects = () => {
                   target="_blank"
                   rel="noreferrer noopener"
                 >
-                  <Button variant="primary">Website</Button>
+                  <Button variant="primary"  block>Website</Button>
                 </a>
               </div>
             </div>

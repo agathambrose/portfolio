@@ -19,7 +19,7 @@ export const ProjectsData = [
     image: Img2,
     title: "E-commerce",
     description:
-      "This was built was my first React project. It was built with React, Bootstrap and React-Bootstrap. It has a a sign in and log in page, product details page and also a cart.",
+      "This was built was my first React project. It was built with React, Bootstrap and React-Bootstrap. It has a sign in and log in page, product details page and also a cart.",
     github: "https://github.com/agathambrose/agathambrose-hasob-ecommerce",
     vercel: "https://agathambrose-hasob-ecommerce.vercel.app/",
   },

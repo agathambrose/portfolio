@@ -2,7 +2,8 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-gap: 30px;
-  padding: 2rem;
+  padding: 3.5rem;
+  /* background-color: blue; */
 }
 
 .stack_logo {
@@ -43,10 +44,6 @@
 
 /* ____________DESKTOP VIEW____________*/
 @media only screen and (min-width: "1024px") {
-  .stack_logo_container{
-    padding: 4rem
-  }
-
   .stack_logo {
     width: 350px;
   }

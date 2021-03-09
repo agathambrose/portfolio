@@ -11,7 +11,6 @@ export const ContactCard = () => {
       style={{
         fontFamily: "Prata",
       }}
-      className="py-5 px-5"
     >
       <div className="text-center mt-3 mb-4">
         <h1>Contact Me</h1>
