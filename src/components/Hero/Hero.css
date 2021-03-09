@@ -1,9 +1,11 @@
 .hero-div {
+  margin: 60px 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url(../../assets/undraw_dreamer_gxxi.svg) no-repeat center left;
+  background: url(../../assets/undraw_dreamer_gxxi.svg) no-repeat center center;
   min-height: 100vh;
+  max-width: 100%;
   -webkit-background-size: contain;
   -moz-background-size: contain;
   background-size: contain;
@@ -11,9 +13,25 @@
 
 .hero-info {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: right;
+  align-items: center;
   font-size: 2.5rem;
   background-color: rgba(255, 255, 255, 0.664);
   border-radius: 5px;
   font-family: "Titilium Web", sans-serif;
+}
+
+/* __________TABLET VIEW __________ */
+@media only screen and (min-width: "768px") {
+  .hero-div {
+      margin-top: 20px
+  }
+}
+
+/* __________DESKTOP VIEW__________ */
+@media only screen and (min-width: "1024px") {
+  .hero-div {
+      margin-top: 20px
+  }
 }

@@ -1,0 +1,54 @@
+.stack_logo_container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-gap: 20px;
+  padding: 4rem;
+}
+
+.stack_logo {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+  padding: 5px;
+  margin-bottom: 20px;
+  animation: float 6s ease-in-out infinite;
+}
+
+.stack__image {
+  margin: 20px 0;
+  width: 30%;
+  height: 100%;
+  objectfit: contain;
+}
+
+/* ____________KEYFRAMES____________ */
+@keyframes float {
+  0% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translatey(0px);
+  }
+  50% {
+    box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
+    transform: translatey(-20px);
+  }
+  100% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translatey(0px);
+  }
+}
+
+/* ____________DESKTOP VIEW____________*/
+@media only screen and (min-width: "1024px") {
+  .stack_logo {
+    width: 350px;
+  }
+
+  .stack__image {
+    max-width: 100%;
+    height: 150px;
+  }
+}

@@ -1,31 +1,47 @@
 import React from "react";
 import "./Hero.css";
-import { Button } from "react-bootstrap";
+import Typical from "react-typical";
 
 export const Hero = () => {
   return (
     <section className="hero-div">
-      <div className="hero-info py-2 px-3">
-        <h1
+      <div className="hero-info mt-5 py-2 px-3">
+        <div
           style={{
-            fontSize: "3rem",
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            fontFamily: "Prata",
           }}
         >
-          Agatha Ambrose
-        </h1>
-
-        <Button variant = "primary">
-          <a
-            href="https://drive.google.com/file/d/1wrYZzRy5Zm0NGXWlAb4NVCSTK_HVzsvn/view?usp=sharing"
-            target="_blank"
-            rel="noreferrer noopener"
+          <h2
             style={{
-              color: "black",
+              fontSize: "1.8rem",
+              fontWeight: "500",
             }}
           >
-            Resume
-          </a>
-        </Button>
+            Agatha Ambrose
+          </h2>
+        </div>
+        <p
+          style={{
+            fontSize: "1.2rem",
+            fontFamily: "Prata",
+          }}
+        >
+          <Typical
+            steps={[
+              "A Frontend Developer",
+              800,
+              "A Writer",
+              800,
+              "An Accountant",
+              800,
+            ]}
+            loop={Infinity}
+            wrapper="p"
+          />
+        </p>
       </div>
     </section>
   );

@@ -1,0 +1,39 @@
+.contact__sect {
+  justify-content: center;
+  align-items: center;
+  background-color: lightgray;
+  padding: 1.5rem;
+  border: none;
+  border-radius: 10px;
+  margin: 20px 50px
+}
+
+.contact__img {
+  width: 50%;
+}
+
+.contact__icons {
+  flex-direction: column;
+  font-size: 1.8rem;
+  padding: 10px;
+}
+
+.icon_img:hover {
+  color: rgb(0, 0, 255, 0.9);
+}
+
+/* ___________DESKTOP VIEW___________ */
+@media only screen and (min-width: 1024px) {
+  .contact__sect {
+    
+  }
+
+  .contact__img {
+    width: 50%;
+  }
+
+  .contact__icons {
+    font-size: 4rem;
+    padding: 10px;
+  }
+}
