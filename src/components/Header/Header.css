@@ -1,7 +1,17 @@
+.aa-logo{
+  fontSize: "1rem",
+}
+
+
+
+
+
+
+
 /* __________TABLET VIEW___________ */
 @media only screen and (min-width: "768px") {
-  .header-btn {
-    font-size: 2rem;
+  .header__btn {
+    font-size: 5rem;
   }
 }
 

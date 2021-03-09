@@ -10,13 +10,12 @@ export const Projects = () => {
         fontFamily: "Prata",
         marginBottom: "60px",
       }}
-      className='py-5 px-5'
     >
-      <div className="text-center mt-3 mb-4 pt-4">
+      <div className="text-center mx-2 pt-4">
         <h1>Projects</h1>
       </div>
 
-      <div className="card__container mx-4">
+      <div className="card__container">
         {ProjectsData.map((item) => (
           <div className="card__subcontainer" key={item.id}>
             <img

@@ -8,7 +8,6 @@ const Header = () => {
     <div
       style={{
         fontFamily: "Prata",
-        fontSize: "3rem",
         position: "fixed",
         height: "60px",
         width: "100%",
@@ -29,9 +28,7 @@ const Header = () => {
         }}
       >
         <h1
-          style={{
-            fontSize: "3rem",
-          }}
+          className='aa-logo'
         >
           A.A
         </h1>
@@ -40,12 +37,11 @@ const Header = () => {
           variant="outline-primary"
           style={{
             fontFamily: "Prata",
-            fontSize: "1rem",
           }}
-          className="header-btn mb-3 py-2 px-3"
+          className="header__btn mb-3 py-2 px-3"
         >
           <a
-            href="https://drive.google.com/file/d/1wrYZzRy5Zm0NGXWlAb4NVCSTK_HVzsvn/view?usp=sharing"
+            href="https://drive.google.com/file/d/1d-v9xezAgGh96Ke5vqiARinRvZRf1u0t/view?usp=sharing"
             target="_blank"
             rel="noreferrer noopener"
             style={{
