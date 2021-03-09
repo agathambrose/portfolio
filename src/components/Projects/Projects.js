@@ -31,26 +31,25 @@ export const Projects = () => {
               <p>{item.description}</p>
 
               <div className="card__btns">
-                <Button variant="outline-primary" className="mb-2">
-                  <a
-                    href={item.github}
-                    style={{ color: "black" }}
-                    target="_blank"
-                    rel="noreferrer noopener"
-                  >
+                <a
+                  href={item.github}
+                  style={{ color: "black" }}
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  <Button variant="outline-primary" className="mb-2">
                     Source Code
-                  </a>
-                </Button>
-                <Button variant="primary">
-                  <a
-                    href={item.vercel}
-                    style={{ color: "white" }}
-                    target="_blank"
-                    rel="noreferrer noopener"
-                  >
-                    Website
-                  </a>
-                </Button>
+                  </Button>
+                </a>
+
+                <a
+                  href={item.vercel}
+                  style={{ color: "white" }}
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  <Button variant="primary">Website</Button>
+                </a>
               </div>
             </div>
           </div>
