@@ -39,7 +39,7 @@ export const StackData = [
   {
     id: 5,
     img: Img5,
-    title: "React",
+    title: "React JS",
   },
 
   {
