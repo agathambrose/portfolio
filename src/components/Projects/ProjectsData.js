@@ -9,7 +9,7 @@ export const ProjectsData = [
     image: Img1,
     title: "Quiz-App",
     description:
-      "This was my second React Project. It was built with React, Formik, Redux Toolkit, Bootstrap and React-Bootstrap. It has a backend-generated login for admin only while users register(if new) and login (if account exists).",
+      "This was  was built with React, Formik, Redux Toolkit, Bootstrap and React-Bootstrap. It has a backend-generated login for admin only while users register(if new) and login (if account already exists).",
     github: "https://github.com/agathambrose/AgathAmbrose-Quiz-App",
     vercel: "https://quiz-app-six-rho.vercel.app/",
   },
@@ -19,7 +19,7 @@ export const ProjectsData = [
     image: Img2,
     title: "E-commerce",
     description:
-      "This was built was my first React project. It was built with React, Bootstrap and React-Bootstrap. It has a sign in and log in page, product details page and also a cart.",
+      "This was built with React, Bootstrap and React-Bootstrap. It has a sign in and log in page, product details page and also a cart.",
     github: "https://github.com/agathambrose/agathambrose-hasob-ecommerce",
     vercel: "https://agathambrose-hasob-ecommerce.vercel.app/",
   },
@@ -28,7 +28,8 @@ export const ProjectsData = [
     id: 3,
     image: Img3,
     title: "Realtime Hex-Clock",
-    description: "This was built with HTML 5, CSS 3 and Javascript. It is a real-time clock that makes use of random values to generate random hex background colors.",
+    description:
+      "This was built with HTML 5, CSS 3 and Javascript. It is a real-time clock that makes use of random values to generate random hex background colors.",
     github: "https://github.com/agathambrose/realtime-hexclock",
     vercel: "https://realtime-hexclock.vercel.app/",
   },
