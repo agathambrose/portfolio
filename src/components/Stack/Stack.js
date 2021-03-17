@@ -8,15 +8,17 @@ export const Stack = () => {
       style={{
         fontFamily: "Prata",
       }}
+      className='container'
     >
-      <div className="text-center mt-3 mb-4 pt-4">
-        <h1>Stack</h1>
+      <div className="text-center mt-4 mb-2 pt-4">
+        <h1>Skill Set</h1>
       </div>
 
       <div className="stack_logo_container ">
         {StackData.map((item) => (
           <div className="stack_logo" key={item.id}>
             <img className="stack__image" src={item.img} alt="images" />
+            <p>{item.title}</p>
           </div>
         ))}
       </div>

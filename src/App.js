@@ -1,20 +1,23 @@
 import "./App.css";
 import React from "react";
-import Header from "./components/Header/Header";
-import { Hero } from "./components/Hero/Hero";
-import { Projects } from "./components/Projects/Projects";
-import { Stack } from "./components/Stack/Stack";
-import { ContactCard } from "./components/ContactCard/ContactCard";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Home from "./pages/home";
+import { About } from "./pages/about";
+
 
 const App = () => {
   return (
-    <div>
-      <Header />
-      <Hero />
-      <Stack />
-      <Projects />
-      <ContactCard />
-    </div>
+    <Router>
+      <Switch>
+        <Route exact path="/">
+          <Home />
+        </Route>
+
+        <Route exact path="/about">
+          <About />
+        </Route>
+      </Switch>
+    </Router>
   );
 };
 

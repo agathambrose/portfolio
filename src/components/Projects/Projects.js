@@ -15,7 +15,7 @@ export const Projects = () => {
         <h1>Projects</h1>
       </div>
 
-      <div className="card__container">
+      <div className="container card__container">
         {ProjectsData.map((item) => (
           <div className="card__subcontainer" key={item.id}>
             <img
