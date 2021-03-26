@@ -10,7 +10,7 @@ export const Stack = () => {
       }}
     >
       <div className="text-center mt-4 mb-2 pt-4">
-        <h1>Skill Set</h1>
+        <h1>Stack</h1>
       </div>
 
       <div className="container stack_logo_container">
