@@ -28,7 +28,7 @@ const Header = () => {
       >
         <h1 className="aa-logo">A.A</h1>
         <a
-          href="https://drive.google.com/file/d/18oPror59SGBEe32T7IbSDVtAL9rO5zfN/view?usp=sharing"
+          href="https://drive.google.com/file/d/15b0Ndw5Xtut9Qn9r4l_c821a5QOkC5H0/view?usp=sharing"
           target="_blank"
           rel="noreferrer noopener"
           style={{
@@ -41,7 +41,7 @@ const Header = () => {
             style={{
               fontFamily: "Prata",
             }}
-            className="header__btn mb-3 py-2 px-3"
+            className="header__btn mb-3 py-2 px-3 outline-none"
           >
             Resume
           </Button>
