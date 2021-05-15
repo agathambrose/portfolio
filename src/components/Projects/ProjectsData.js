@@ -1,5 +1,5 @@
 import Img1 from "../../assets/quiz-app.png";
-import Img2 from "../../assets/Ecommerce.png";
+import Img2 from "../../assets/Ambrosia.png";
 import Img3 from "../../assets/hex-clock.png";
 import Img4 from "../../assets/welcome-pg.png";
 
@@ -11,17 +11,17 @@ export const ProjectsData = [
     description:
       "This was  was built with React, Formik, Redux Toolkit, Bootstrap and React-Bootstrap. It has a backend-generated login for admin only while users register(if new) and login (if account already exists).",
     github: "https://github.com/agathambrose/AgathAmbrose-Quiz-App",
-    vercel: "https://quiz-app-six-rho.vercel.app/",
+    vercel: "https://quizafrica.vercel.app/",
   },
 
   {
     id: 2,
     image: Img2,
-    title: "E-commerce",
+    title: "Spa Website",
     description:
-      "This was built with React, Bootstrap and React-Bootstrap. It has a sign in and log in page, product details page and also a cart.",
-    github: "https://github.com/agathambrose/agathambrose-hasob-ecommerce",
-    vercel: "https://agathambrose-hasob-ecommerce.vercel.app/",
+      "This is a single page website which was built using React JS, Tailwind CSS, Express JS, Nodemailer, Sweet Alert, Axios, and GSAP",
+    github: "https://github.com/agathambrose/ambrosia-spa",
+    vercel: "https://ambrosiaspa.life",
   },
 
   {
