@@ -1,7 +1,7 @@
 import Img1 from "../../assets/quiz-app.png";
 import Img2 from "../../assets/Ambrosia.png";
-import Img3 from "../../assets/hex-clock.png";
-import Img4 from "../../assets/welcome-pg.png";
+import Img3 from "../../assets/formplus.png";
+import Img4 from "../../assets/klasha.png";
 
 export const ProjectsData = [
   {
@@ -27,21 +27,20 @@ export const ProjectsData = [
   {
     id: 3,
     image: Img3,
-    title: "Realtime Hex-Clock",
+    title: "FormPlus",
     description:
-      "This was built with HTML 5, CSS 3 and Javascript. It is a real-time clock that makes use of random values to generate random hex background colors.",
-    github: "https://github.com/agathambrose/realtime-hexclock",
-    vercel: "https://realtime-hexclock.vercel.app/",
+      "This was built with ReactJS, TailwindCSS, Redux-Toolkit, React-Redux, yarn, git, React-Icons, axios.",
+    github: "https://github.com/agathambrose/formplus",
+    vercel: "https://formplus-task.vercel.app/",
   },
 
   {
     id: 4,
     image: Img4,
-    title: "Form with JSON",
+    title: "Klasha UI",
     description:
-      "This was built with HTML 5, CSS 3, Javascript, JSON and JQUERY. On submit, it renders a JSON data of values input into the form",
-    github:
-      "https://github.com/agathambrose/welcome-form/tree/main/hasob_project",
-    vercel: "https://hasob-project.vercel.app/",
+      "This was built with ReactJS, TailwindCSS and React Icons. I created this also with yarn, CRA, and husky for pre-commit linting",
+    github: "https://github.com/agathambrose/klasha-ui",
+    vercel: "https://klasha-ui.vercel.app/",
   },
 ];
