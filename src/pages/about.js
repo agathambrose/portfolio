@@ -20,7 +20,7 @@ export const About = () => {
           justifyContent: "center",
           alignItems: "center",
           boxShadow: "box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px",
-          // background: "rgb(255,127,80, 0.9)",
+          background: "rgb(255, 120, 80, 0.9)",
           minHeight: "80vh",
           marginTop: "30px",
           borderRadius: "10px",
@@ -43,7 +43,7 @@ export const About = () => {
           style={{
             fontFamily: "Poppins, sans-serif",
             textAlign: "center",
-            background: "rgb(255, 120, 80, 0.1)",
+            background: "rgb(255, 255, 255, 0.3)",
             borderRadius: "10px",
             boxShadow:
               "rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;",
