@@ -1,3 +1,3 @@
-# My Portfolio Website
+# Agatha Ambrose's Portfolio Website
 
-### Dark Mode to be integrated.
+

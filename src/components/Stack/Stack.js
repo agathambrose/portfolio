@@ -6,11 +6,17 @@ export const Stack = () => {
   return (
     <section
       style={{
-        fontFamily: "Prata",
+        fontFamily: "Poppins, sans-serif",
       }}
     >
-      <div className="text-center mt-4 mb-2 pt-4">
-        <h1>Stack</h1>
+      <div className="pt-4 mt-4 mb-2 text-center">
+        <h1
+          style={{
+            fontFamily: "Prata, sans-serif",
+          }}
+        >
+          Stack
+        </h1>
       </div>
 
       <div className="container stack_logo_container">

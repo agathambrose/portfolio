@@ -1,9 +1,9 @@
 .stack_logo_container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  grid-gap: 30px;
-  padding: 3.5rem;
-  /* background-color: blue; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
 }
 
 .stack_logo {
@@ -12,43 +12,42 @@
   justify-content: center;
   align-items: center;
   border: none;
-  border-radius: 50%;
-  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
-  margin-bottom: 20px;
+  border-radius: 100%;
+  overflow: hidden;
+  box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.3);
+  transform: translatey(0px);
+  margin: 20px 5px;
+  min-width: 20%;
   animation: float 6s ease-in-out infinite;
 }
 
 .stack__image {
-  margin: 20px 0;
-  width: 30%;
-  height: 30%;
-  objectfit: contain;
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  margin: 10px 50px;
 }
 
 /* ____________KEYFRAMES____________ */
 @keyframes float {
   0% {
-    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.2);
     transform: translatey(0px);
   }
   50% {
-    box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.1);
     transform: translatey(-20px);
   }
   100% {
-    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.2);
     transform: translatey(0px);
   }
 }
 
 /* ____________DESKTOP VIEW____________*/
 @media only screen and (min-width: "1024px") {
-  .stack_logo {
-    width: 350px;
-  }
-
   .stack__image {
-    max-width: 100%;
-    height: 150px;
+    width: 30px;
+    height: 30px;
   }
 }

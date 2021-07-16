@@ -5,13 +5,13 @@ import Typical from "react-typical";
 export const Hero = () => {
   return (
     <section className="hero-div">
-      <div className="hero-info mt-5 py-2 px-3">
+      <div className="px-3 py-2 mt-5 hero-info">
         <div
           style={{
             display: "flex",
             flexDirection: "column",
             alignItems: "center",
-            fontFamily: "Prata",
+            fontFamily: "Poppins, sans-serif",
           }}
         >
           <h2
@@ -25,7 +25,7 @@ export const Hero = () => {
         </div>
         <p
           style={{
-            fontFamily: "Prata",
+            fontFamily: "Poppins, sans-serif",
           }}
           className='typical-div'
         >

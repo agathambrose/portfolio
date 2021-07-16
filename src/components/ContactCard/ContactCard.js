@@ -10,9 +10,10 @@ export const ContactCard = () => {
     <section
       style={{
         fontFamily: "Prata",
+        
       }}
     >
-      <div className="text-center mt-3 mb-4">
+      <div className="mt-3 mb-4 text-center">
         <h1>Contact Me</h1>
       </div>
 

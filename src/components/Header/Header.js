@@ -1,6 +1,7 @@
 import React from "react";
 import { Button } from "react-bootstrap";
 import "./Header.css";
+import {Link} from "react-router-dom"
 
 const Header = () => {
   return (
@@ -16,6 +17,7 @@ const Header = () => {
         right: "0",
         zIndex: "10",
         padding: "5px 12px",
+        boxShadow: "2px 0px 8px rgba(0, 0, 0, 0.2)",
       }}
       className="Header__area"
     >
@@ -27,25 +29,34 @@ const Header = () => {
         }}
       >
         <h1 className="aa-logo">A.A</h1>
-        <a
-          href="https://drive.google.com/file/d/15b0Ndw5Xtut9Qn9r4l_c821a5QOkC5H0/view?usp=sharing"
-          target="_blank"
-          rel="noreferrer noopener"
+        <div
           style={{
-            color: "black",
+            display: "flex",
+            justifyContent: "space-between",
+            alignItems: "center",
+            marginTop: "2px",
+            fontFamily: "Poppins, sans-serif",
           }}
         >
-          <Button
-            variant="outline-primary"
-            size="lg"
-            style={{
-              fontFamily: "Prata",
-            }}
-            className="header__btn mb-3 py-2 px-3 outline-none"
+          <Link to="/about" className="about-link">
+            <p>About</p>
+          </Link>
+          <a
+            href="https://drive.google.com/file/d/1Gh8OZOK4bFzVJPKmKqqxIPAMpTntYS1e/view?usp=sharing"
+            target="_blank"
+            rel="noreferrer noopener"
+            className="resume_link"
           >
-            Resume
-          </Button>
-        </a>
+            <p
+              style={{
+                fontFamily: "Poppins, sans-serif",
+              }}
+              className="ml-4 header__btn"
+            >
+              Resume
+            </p>
+          </a>
+        </div>
       </div>
     </div>
   );

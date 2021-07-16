@@ -1,7 +1,7 @@
 import Img1 from "../../assets/quiz-app.png";
 import Img2 from "../../assets/Ambrosia.png";
-import Img3 from "../../assets/formplus.png";
-import Img4 from "../../assets/klasha.png";
+import Img3 from "../../assets/klasha.png";
+import Img4 from "../../assets/formplus.png";
 
 export const ProjectsData = [
   {
@@ -27,20 +27,20 @@ export const ProjectsData = [
   {
     id: 3,
     image: Img3,
-    title: "FormPlus",
-    description:
-      "This was built with ReactJS, TailwindCSS, Redux-Toolkit, React-Redux, yarn, git, React-Icons, axios.",
-    github: "https://github.com/agathambrose/formplus",
-    vercel: "https://formplus-task.vercel.app/",
-  },
-
-  {
-    id: 4,
-    image: Img4,
     title: "Klasha UI",
     description:
       "This was built with ReactJS, TailwindCSS and React Icons. I created this also with yarn, CRA, and husky for pre-commit linting",
     github: "https://github.com/agathambrose/klasha-ui",
     vercel: "https://klasha-ui.vercel.app/",
+  },
+
+  {
+    id: 4,
+    image: Img4,
+    title: "FormPlus",
+    description:
+      "This was built with ReactJS, TailwindCSS, Redux-Toolkit, React-Redux, yarn, git, React-Icons, axios.",
+    github: "https://github.com/agathambrose/formplus",
+    vercel: "https://formplus-task.vercel.app/",
   },
 ];

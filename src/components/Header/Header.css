@@ -1,12 +1,23 @@
-.aa-logo{
-  fontSize: "1rem",
+.aa-logo {
+  font-size: "1rem";
 }
 
+.about-link,
+.resume_link {
+  color: black;
+  text-decoration: underline;
+  text-decoration-color: rgba(64, 98, 250, 0.795);
+  -moz-text-decoration-color: rgb(250, 114, 64);
+  text-decoration-thickness: 5px;
+}
 
-
-
-
-
+.about-link:hover,
+.resume_link:hover {
+  text-decoration: underline;
+  text-decoration-color: rgba(250, 114, 64, 0.795);
+  -moz-text-decoration-color: rgb(250, 114, 64);
+  text-decoration-thickness: 5px;
+}
 
 /* __________TABLET VIEW___________ */
 @media only screen and (min-width: "768px") {

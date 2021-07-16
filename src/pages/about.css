@@ -1,0 +1,14 @@
+.home-btn{
+  color: black;
+  text-decoration: underline;
+  text-decoration-color: rgba(64, 98, 250, 0.795);
+  -moz-text-decoration-color: rgb(250, 114, 64);
+  text-decoration-thickness: 5px;
+}
+
+.home-btn:hover {
+  text-decoration: underline;
+  text-decoration-color: rgba(250, 114, 64, 0.795);
+  -moz-text-decoration-color: rgb(250, 114, 64);
+  text-decoration-thickness: 5px;
+}

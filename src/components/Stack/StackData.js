@@ -6,6 +6,7 @@ import Img5 from "../../assets/react-2.svg";
 import Img6 from "../../assets/redux.svg";
 import Img7 from "../../assets/gatsby.svg";
 import Img8 from "../../assets/tailwindcss.svg";
+import Img9 from "../../assets/typescript.svg";
 
 
 
@@ -58,5 +59,11 @@ export const StackData = [
     id: 8,
     img: Img8,
     title: "Tailwind CSS",
+  },
+
+  {
+    id: 9,
+    img: Img9,
+    title: "Typescript",
   },
 ];
