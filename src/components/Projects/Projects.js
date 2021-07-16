@@ -1,6 +1,5 @@
 import React from "react";
 import { ProjectsData } from "./ProjectsData";
-import button from "react-bootstrap/button";
 import "./Projects.css";
 
 export const Projects = () => {
