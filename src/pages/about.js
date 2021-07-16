@@ -47,8 +47,8 @@ export const About = () => {
           <p className="px-3">
             Holla! I am Agatha Ambrose and I am a Frontend Engineer with a
             background in Accounting. While at the university, I studied
-            Accounting and was also a creative writer on the side. I graduated
-            then went on to practice for about a year and half at an NGO, then
+            Accounting and was also a creative writer on the side. I successfully graduated
+            and went on to practice for about a year and half at an NGO, then
             decided with absolute conviction that I wanted to be a part of the
             tech industry.
             <br />
