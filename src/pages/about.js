@@ -3,11 +3,15 @@ import "./about.css"
 
 export const About = () => {
   return (
-    <div style={{height: "100vh"}}>
-      <div style={{
-        margin: "20px"
-      }}>
-        <Link to="/" className="home-btn">Home</Link>
+    <div style={{ height: "100vh" }}>
+      <div
+        style={{
+          margin: "20px",
+        }}
+      >
+        <Link to="/" className="home-btn">
+          Home
+        </Link>
       </div>
       <div
         style={{
@@ -15,7 +19,8 @@ export const About = () => {
           flexDirection: "column",
           justifyContent: "center",
           alignItems: "center",
-          background: "rgb(255,127,80, 1)",
+          boxShadow: "box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px",
+          // background: "rgb(255,127,80, 0.9)",
           minHeight: "80vh",
           marginTop: "30px",
           borderRadius: "10px",
@@ -27,6 +32,7 @@ export const About = () => {
         <h2
           style={{
             fontFamily: "Prata",
+            marginTop: "10px",
           }}
         >
           About Me
@@ -37,7 +43,7 @@ export const About = () => {
           style={{
             fontFamily: "Poppins, sans-serif",
             textAlign: "center",
-            background: "rgb(255, 255, 255, 0.5)",
+            background: "rgb(255, 120, 80, 0.1)",
             borderRadius: "10px",
             boxShadow:
               "rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;",
@@ -47,10 +53,10 @@ export const About = () => {
           <p className="px-3">
             Holla! I am Agatha Ambrose and I am a Frontend Engineer with a
             background in Accounting. While at the university, I studied
-            Accounting and was also a creative writer on the side. I successfully graduated
-            and went on to practice for about a year and half at an NGO, then
-            decided with absolute conviction that I wanted to be a part of the
-            tech industry.
+            Accounting and was also a creative writer on the side. I
+            successfully graduated and went on to practice for about a year and
+            half at an NGO, then decided with absolute conviction that I wanted
+            to be a part of the tech industry.
             <br />
             <br />
             I have always been curious about the industry. I also remember in my
