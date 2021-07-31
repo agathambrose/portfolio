@@ -31,7 +31,7 @@ export const Hero = () => {
         >
           <Typical
             steps={[
-              "A Frontend Developer",
+              "A Frontend Dev",
               800,
               "A Writer",
               800,

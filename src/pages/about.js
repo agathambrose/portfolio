@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "./about.css"
+import "./about.css";
 
 export const About = () => {
   return (
@@ -19,8 +19,10 @@ export const About = () => {
           flexDirection: "column",
           justifyContent: "center",
           alignItems: "center",
-          boxShadow: "box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px",
-          background: "rgb(255, 120, 80, 0.9)",
+          boxShadow:
+            "box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;",
+          backgroundColor: "#ee9617",
+          backgroundImage: "linear-gradient(315deg, #ee9617 0%, #fe5858 74%)",
           minHeight: "80vh",
           marginTop: "30px",
           borderRadius: "10px",
@@ -43,7 +45,7 @@ export const About = () => {
           style={{
             fontFamily: "Poppins, sans-serif",
             textAlign: "center",
-            background: "rgb(255, 255, 255, 0.3)",
+            background: "rgb(255, 255, 255, 0.5)",
             borderRadius: "10px",
             boxShadow:
               "rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;",

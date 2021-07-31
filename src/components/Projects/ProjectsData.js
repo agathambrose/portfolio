@@ -9,7 +9,7 @@ export const ProjectsData = [
     image: Img1,
     title: "Quiz-App",
     description:
-      "This was  was built with React, Formik, Redux Toolkit, Bootstrap and React-Bootstrap. It has a backend-generated login for admin only while users register(if new) and login (if account already exists).",
+      "This was was built with React, Formik, Redux Toolkit, Bootstrap and React-Bootstrap. It has a backend-generated login for admin only while users register(if new) and login (if account already exists).",
     github: "https://github.com/agathambrose/AgathAmbrose-Quiz-App",
     vercel: "https://quizafrica.vercel.app/",
   },
@@ -19,7 +19,7 @@ export const ProjectsData = [
     image: Img2,
     title: "Spa Website",
     description:
-      "This is a single page website which was built using React JS, Tailwind CSS, Express JS, Nodemailer, Sweet Alert, Axios, and GSAP",
+      "This is a single page website for a spa company in Lagos, Nigeria. It was built with React JS, Tailwind CSS, Tailwind CSS animations, Google maps API, wave and GSAP",
     github: "https://github.com/agathambrose/ambrosia-spa",
     vercel: "https://ambrosiaspa.life",
   },
