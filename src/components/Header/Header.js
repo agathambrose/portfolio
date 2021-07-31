@@ -1,7 +1,6 @@
 import React from "react";
 import "./Header.css";
 import { Link } from "react-router-dom";
-import devLogo from "../../assets/dev-to.png";
 
 const Header = () => {
   return (
@@ -28,10 +27,7 @@ const Header = () => {
           alignItems: "center",
         }}
       >
-        <div className="logo-div">
-          <img src={devLogo} alt="dev.to logo" className="dev-logo" />
           <h1 className="aa-logo">A.A</h1>
-        </div>
         <div
           style={{
             display: "flex",
