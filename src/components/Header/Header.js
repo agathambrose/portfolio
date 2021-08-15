@@ -18,7 +18,6 @@ const Header = () => {
         padding: "5px 12px",
         boxShadow: "2px 0px 8px rgba(0, 0, 0, 0.2)",
       }}
-      className="Header__area"
     >
       <div
         style={{
@@ -26,8 +25,9 @@ const Header = () => {
           justifyContent: "space-between",
           alignItems: "center",
         }}
+        className="header__area"
       >
-          <h1 className="aa-logo">A.A</h1>
+        <h1 className="aa-logo">A.A</h1>
         <div
           style={{
             display: "flex",
@@ -41,7 +41,7 @@ const Header = () => {
             <p>About</p>
           </Link>
           <a
-            href="https://drive.google.com/file/d/1Gh8OZOK4bFzVJPKmKqqxIPAMpTntYS1e/view?usp=sharing"
+            href="https://drive.google.com/file/d/1LMn2ZRaIB4kbcs6AvBUud7VYTUPB_QS6/view?usp=sharing"
             target="_blank"
             rel="noreferrer noopener"
             className="resume_link"

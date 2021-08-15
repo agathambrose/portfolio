@@ -4,31 +4,39 @@
 
 .about-link,
 .resume_link {
+  display: inline-block;
+  position: relative;
   color: black;
   text-decoration: underline;
   text-decoration-color: rgba(64, 98, 250, 0.795);
   -moz-text-decoration-color: rgb(250, 114, 64);
   text-decoration-thickness: 5px;
+  transition: 0.5s;
+}
+
+.about-link::after,
+.resume_link::after{
+  content: "»";
+  position: absolute;
+  opacity: 0;
+  top: 0px;
+  right: -20px;
+  transition: 0.5s;
+  color: rgba(64, 98, 250, 0.795);
 }
 
 .about-link:hover,
 .resume_link:hover {
+  padding-right: 24px;
+  padding-left: 8px;
   text-decoration: underline;
   text-decoration-color: rgba(254,88,88, 0.795);
   -moz-text-decoration-color: rgb(254, 88, 88, 0.795);
   text-decoration-thickness: 5px;
 }
 
-/* __________TABLET VIEW___________ */
-@media only screen and (min-width: "768px") {
-  .header__btn {
-    font-size: 5rem;
-  }
-}
-
-/* __________DESKTOP VIEW___________ */
-@media only screen and (min-width: "1024px") {
-  .header-btn {
-    font-size: 3rem;
-  }
+.about-link:hover::after,
+.resume_link:hover::after{
+  opacity: 1;
+  right: 10px;
 }

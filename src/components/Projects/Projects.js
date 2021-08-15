@@ -31,7 +31,12 @@ export const Projects = () => {
             <div className="mt-5" style={{ fontFamily: "Poppins, sans-serif" }}>
               <h4>{item.title}</h4>
 
-              <p style={{ fontFamily: "Poppins, sans-serif", textAlign: "justify" }}>
+              <p
+                style={{
+                  fontFamily: "Poppins, sans-serif",
+                  textAlign: "justify",
+                }}
+              >
                 {item.description}
               </p>
 
@@ -42,7 +47,9 @@ export const Projects = () => {
                   target="_blank"
                   rel="noreferrer noopener"
                 >
-                  <button className="mb-2 sourcecode-btn">Source Code</button>
+                  <button className="mb-2 sourcecode-btn">
+                    Source Code
+                  </button>
                 </a>
 
                 <a

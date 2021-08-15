@@ -1,4 +1,7 @@
-.home-btn{
+.home-btn {
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
   color: black;
   text-decoration: underline;
   text-decoration-color: rgba(64, 98, 250, 0.795);
@@ -7,8 +10,25 @@
 }
 
 .home-btn:hover {
+  padding-right: 20px;
+  padding-left: 8px;
   text-decoration: underline;
   text-decoration-color: rgba(250, 114, 64, 0.795);
   -moz-text-decoration-color: rgb(250, 114, 64);
   text-decoration-thickness: 5px;
+}
+
+.home-btn:hover::before {
+  opacity: 1;
+  right: 10px;
+}
+
+.home-btn::before {
+  content: "«";
+  position: absolute;
+  opacity: 0;
+  top: 0px;
+  left: -10px;
+  transition: 0.5s;
+  color: rgba(64, 98, 250, 0.795);
 }
