@@ -41,7 +41,7 @@ const Header = () => {
             <p>About</p>
           </Link>
           <a
-            href="https://drive.google.com/file/d/1LMn2ZRaIB4kbcs6AvBUud7VYTUPB_QS6/view?usp=sharing"
+            href="https://drive.google.com/file/d/1Fa7Ha8Utz3TgNSzdGuD_NppvkQZyN57V/view?usp=sharing"
             target="_blank"
             rel="noreferrer noopener"
             className="resume_link"
