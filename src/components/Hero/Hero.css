@@ -24,11 +24,11 @@
 }
 
 .name-div {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
 }
 
 .typical-div {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -43,7 +43,7 @@
   .name-div {
     font-size: 2rem;
   }
-    .typical-div {
+  .typical-div {
     font-size: 3rem;
   }
 }

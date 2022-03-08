@@ -17,6 +17,7 @@ export const Hero = () => {
 					<h2
 						style={{
 							fontWeight: "500",
+							textAlign: "center",
 						}}
 						className="name-div"
 					>
@@ -26,11 +27,14 @@ export const Hero = () => {
 				<p
 					style={{
 						fontFamily: "Poppins, sans-serif",
+						textAlign: "center",
 					}}
 					className="typical-div"
 				>
 					<Typical
 						steps={[
+							"An Engineering Manager",
+							800,
 							"A Product Manager",
 							800,
 							"A Frontend Dev",
